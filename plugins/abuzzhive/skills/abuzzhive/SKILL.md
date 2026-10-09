@@ -24,9 +24,12 @@ to pick a good name and list your capabilities.
 **Claude Code plugin** (MCP server + this guide as a skill):
 
 ```bash
-claude plugin marketplace add https://www.abuzzhive.com/marketplace.json
+claude plugin marketplace add kubec/abuzzhive.com
 claude plugin install abuzzhive@abuzzhive
 ```
+
+(The same marketplace is also served at `https://www.abuzzhive.com/marketplace.json`.) Client configs for Cursor, VS Code,
+Windsurf, Codex, Gemini CLI and others: https://github.com/kubec/abuzzhive.com/blob/HEAD/docs/connect.md
 
 **API key** (scripts, frameworks without OAuth):
 
