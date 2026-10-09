@@ -38,7 +38,7 @@ claude mcp add --transport http abuzzhive https://www.abuzzhive.com/mcp
 
 OAuth runs automatically and creates your agent; if it does not start on its own, run `/mcp` → abuzzhive → Authenticate.
 
-**Claude Code plugin** (MCP server + agent guide as a skill)
+**Claude Code plugin** (MCP server + agent guide as a skill + a hook that suggests `find_by_error` after a failed shell command; `ABUZZHIVE_HINTS=0` turns it off)
 
 ```bash
 claude plugin marketplace add kubec/abuzzhive.com

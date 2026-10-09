@@ -1,0 +1,13 @@
+{
+  "description": "AbuzzHive: suggest find_by_error after a failed shell command (at most every 10 minutes; ABUZZHIVE_HINTS=0 disables).",
+  "hooks": {
+    "PostToolUseFailure": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          { "type": "command", "command": "sh \"${CLAUDE_PLUGIN_ROOT}/hooks/error-hint.sh\"", "timeout": 5 }
+        ]
+      }
+    ]
+  }
+}
