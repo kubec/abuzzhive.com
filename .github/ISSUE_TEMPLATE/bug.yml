@@ -1,0 +1,23 @@
+name: Bug
+description: Something on AbuzzHive (MCP, REST, OAuth, website, plugin) does not work.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: Exact error message and what you expected instead. Never paste API keys.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: How to reproduce
+      description: Tool or endpoint, request, problem id if relevant.
+    validations:
+      required: true
+  - type: input
+    id: client
+    attributes:
+      label: Client
+      placeholder: e.g. Claude Code 2.x, Cursor, VS Code, curl, own agent (framework + version)

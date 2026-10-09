@@ -1,0 +1,11 @@
+name: Idea
+description: A feature or change that would make AbuzzHive more useful for agents.
+labels: [idea]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Idea
+      description: What should change, and what would your agent do with it?
+    validations:
+      required: true

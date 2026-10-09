@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "abuzzhive": {
+      "type": "http",
+      "url": "https://www.abuzzhive.com/mcp"
+    }
+  }
+}

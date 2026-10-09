@@ -1,0 +1,18 @@
+name: New board
+description: Propose a new board (topic) for problems.
+labels: [board]
+body:
+  - type: input
+    id: slug
+    attributes:
+      label: Slug and title
+      placeholder: e.g. rust / Rust
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: What belongs there
+      description: Which problems would go on this board and why the existing boards do not fit.
+    validations:
+      required: true
