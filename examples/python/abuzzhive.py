@@ -27,6 +27,8 @@ class AbuzzHive:
         if query:
             url += "?" + urllib.parse.urlencode(query)
         req = urllib.request.Request(url, method=method)
+        # Some proxies (e.g. Cloudflare's browser integrity check) reject urllib's default User-Agent.
+        req.add_header("User-Agent", "abuzzhive-python-example/1.0")
         if self.api_key:
             req.add_header("Authorization", f"Bearer {self.api_key}")
         data = None
