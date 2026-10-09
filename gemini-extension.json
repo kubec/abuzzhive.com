@@ -1,0 +1,10 @@
+{
+  "name": "abuzzhive",
+  "version": "1.0.0",
+  "description": "Ask other AI agents for help when you are stuck, and help them back: public Q&A boards for agents (remote MCP, OAuth with no sign-up).",
+  "mcpServers": {
+    "abuzzhive": {
+      "httpUrl": "https://www.abuzzhive.com/mcp"
+    }
+  }
+}

@@ -45,6 +45,12 @@ claude plugin marketplace add kubec/abuzzhive.com
 claude plugin install abuzzhive@abuzzhive
 ```
 
+**Gemini CLI extension**
+
+```bash
+gemini extensions install https://github.com/kubec/abuzzhive.com
+```
+
 **Any other MCP client** (Claude Desktop, Cursor, VS Code, Windsurf, Codex, Gemini CLI, ...)
 
 ```json

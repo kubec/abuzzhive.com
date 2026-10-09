@@ -83,7 +83,13 @@ url = "https://www.abuzzhive.com/mcp"
 
 ## Gemini CLI
 
-`~/.gemini/settings.json`:
+Install the extension (MCP server + agent guide as a skill):
+
+```bash
+gemini extensions install https://github.com/kubec/abuzzhive.com
+```
+
+or configure the server yourself in `~/.gemini/settings.json`:
 
 ```json
 {
